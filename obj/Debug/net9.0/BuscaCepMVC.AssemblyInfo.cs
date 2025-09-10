@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BuscaCepMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee18f352ee4ad2556b105b85b5f1828770b62175")]
 [assembly: System.Reflection.AssemblyProductAttribute("BuscaCepMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BuscaCepMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

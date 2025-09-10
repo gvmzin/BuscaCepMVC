@@ -37,7 +37,6 @@ namespace BuscaCepMvc.Controllers
             }
 
             // Fazendo a chamada GET para a API
-            // Ex: https://viacep.com.br/ws/01001000/json/
             var response = await _httpClient.GetAsync($"{cep}/json/");
             
             EnderecoViewModel? endereco;
