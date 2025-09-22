@@ -94,3 +94,4 @@ C:\Users\gusta\Documents\teste\BuscaCepMVC\obj\Debug\net9.0\refint\BuscaCepMVC.d
 C:\Users\gusta\Documents\teste\BuscaCepMVC\obj\Debug\net9.0\BuscaCepMVC.pdb
 C:\Users\gusta\Documents\teste\BuscaCepMVC\obj\Debug\net9.0\BuscaCepMVC.genruntimeconfig.cache
 C:\Users\gusta\Documents\teste\BuscaCepMVC\obj\Debug\net9.0\ref\BuscaCepMVC.dll
+C:\Users\gusta\Documents\teste\BuscaCepMVC\obj\Debug\net9.0\BuscaCepMVC.sourcelink.json
