@@ -8,9 +8,6 @@ namespace BuscaCepMvc.Models
 {
     public class EnderecoViewModel
     {
-        // Usamos o atributo [JsonPropertyName] para mapear o nome do campo JSON
-        // para a nossa propriedade em C#, mesmo que tenham nomes diferentes.
-        // Neste caso, eles são iguais, mas é uma boa prática.
         [JsonPropertyName("cep")]
         public string? Cep { get; set; }
 

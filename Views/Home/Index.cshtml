@@ -1,7 +1,4 @@
 ﻿@using BuscaCepMvc.Models
-@* Views/Home/Index.cshtml *@
-
-@* Aqui declaramos que esta View espera receber um objeto do tipo EnderecoViewModel *@
 @model EnderecoViewModel
 
 @{
@@ -15,24 +12,12 @@
 
 <div class="row justify-content-center">
     <div class="col-md-6">
-        @*
-            Este é o formulário de busca.
-            asp-controller="Home" e asp-action="Consultar" dizem ao .NET para enviar os dados
-            para a Action "Consultar" no "HomeController" quando o formulário for submetido.
-            O método é POST.
-        *@
         <form asp-controller="Home" asp-action="Consultar" method="post">
             <div class="input-group mb-3">
                 <input type="text" name="cep" class="form-control" placeholder="Digite o CEP" maxlength="8" />
                 <button class="btn btn-primary" type="submit">Buscar</button>
             </div>
         </form>
-
-        @*
-            Verificamos se o Model não é nulo.
-            A primeira vez que a página carrega, o Model é nulo.
-            Após a busca, o Controller nos devolve um Model preenchido.
-        *@
         @if (Model != null)
         {
             <div class="card mt-4">
@@ -40,14 +25,12 @@
                     <h4>Resultado</h4>
                 </div>
                 <div class="card-body">
-                    @* Verificamos se há uma mensagem de erro no Model *@
                     @if (!string.IsNullOrWhiteSpace(Model.Erro))
                     {
                         <div class="alert alert-danger">@Model.Erro</div>
                     }
                     else
                     {
-                        @* Se não há erro, exibimos os dados do endereço *@
                         <p><strong>CEP:</strong> @Model.Cep</p>
                         <p><strong>Logradouro:</strong> @Model.Logradouro</p>
                         <p><strong>Bairro:</strong> @Model.Bairro</p>
